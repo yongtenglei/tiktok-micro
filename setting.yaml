@@ -1,0 +1,8 @@
+ipAddr: '192.168.1.14'
+port: 8848
+namespaceId: '5fd025d3-62cc-4114-85e6-701de564dabc'
+dataId: 'tiktok'
+group: 'tiktok'
+logDir: '/tmp/nacos/log'
+cacheDir: '/tmp/nacos/cache'
+logLevel: 'debug'

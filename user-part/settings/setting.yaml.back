@@ -1,0 +1,40 @@
+{
+    "server": {
+        "host":"192.168.1.14",
+        "port":"9090",
+        "name":"tiktok-server",
+        "tags":[
+            "tiktok",
+            "server"
+        ]
+    },
+    "client": {
+        "host":"192.168.1.14",
+        "port":"8080",
+        "name":"tiktok-client",
+        "tags":[
+            "tiktok",
+            "client"
+        ]
+    },
+    "consul":{
+        "host":"192.168.1.14",
+        "port":"8500"
+    },
+    "mysql":{
+        "host":"192.168.1.14",
+        "post":3306,
+        "user":"root",
+        "password":"1111",
+        "dbName":"toktok"
+    },
+    "token":{
+        "minKeySize":32,
+        "issuer":"yunyandz",
+        "signKey":"37A5D5ADF11D6334114CCC10B5CB5A4E",
+        "expireTime":36000
+    },
+    "scrpt":{
+        "salt":"37A5D5ADF11D6334114CCC10B5CB5A4E"
+    }
+}
